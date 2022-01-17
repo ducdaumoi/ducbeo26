@@ -1,0 +1,136 @@
+.header {
+  z-index: 1;
+}
+
+.header__brand {
+  color: #002d5b;
+  text-decoration: none;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.header__brand:hover {
+  color: #e44239;
+  -webkit-transition: linear 0.2s;
+  transition: linear 0.2s;
+}
+
+.header__nav-link {
+  color: #002d5b;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header__nav-link:hover {
+  color: #e44239;
+  -webkit-transition: linear 0.2s;
+  transition: linear 0.2s;
+}
+
+.header__master-background {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header__master-background::before {
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.2;
+  background-color: #ccc;
+  position: absolute;
+  z-index: 0;
+}
+
+.header__ders {
+  z-index: 1;
+  color: #e44239;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.header__title {
+  z-index: 1;
+  color: #002d5b;
+  font-weight: 800;
+  font-size: 65px;
+}
+
+.header__lorem {
+  z-index: 1;
+  color: #002d5b;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.primary__btn {
+  z-index: 1;
+  color: #002d5b;
+  background-color: #e44239;
+  border-radius: 30px;
+  width: 100px;
+  min-height: 40px;
+  border: 1px solid #e44239;
+  font-weight: 500;
+}
+
+.primary__btn:hover {
+  opacity: 0.8;
+  -webkit-transition: linear 0.2s;
+  transition: linear 0.2s;
+}
+
+.bodymain__title {
+  font-size: 50px;
+  color: #002d5b;
+  font-weight: 800;
+}
+
+.bodymain__lorem {
+  color: #002d5b;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.bodymain__lorem a {
+  text-decoration: none;
+  color: #002d5b;
+}
+
+.bodymain__lorem a:hover {
+  color: #e44239;
+}
+
+.footer {
+  background-color: #002d5b;
+}
+
+.footer__brand {
+  color: #e44239;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.footer__email {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.footer__address {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+.footer__icon--items {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

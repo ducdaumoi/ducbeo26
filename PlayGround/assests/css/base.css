@@ -1,0 +1,29 @@
+:root {
+    --white-color: white;
+    --main-color: #ffc87a;
+    --secondary-color: #1a2b5f;
+    --text-color: #6a7597;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1170px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin: 0 auto;
+}
